@@ -1,0 +1,83 @@
+:root {
+  --white: #ffffff;
+  --text: #252525;
+  --background: #24252a;
+  --text-light: #504d4d;
+  --text: #252525;
+}
+
+.container-home-main {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 2rem;
+  cursor: pointer;
+}
+
+.figure-main {
+  width: 165rem;
+}
+
+.figure {
+  margin: 0rem 1rem;
+}
+
+.img-home-main {
+  width: 98%;
+}
+
+.figcaption {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.paragraph-main {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0.5rem 0rem;
+  color: var(--text);
+}
+
+.paragraph-card {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 0rem;
+  color: var(--text);
+}
+
+.title-content {
+  text-align: center;
+  padding: 1rem 0rem 0rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-light);
+}
+
+.img-home-card {
+  width: 418px;
+  height: 262px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-social-media {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.social-media-text {
+  color: var(--text-light);
+  padding: 1rem 0rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}

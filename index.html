@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gulliver Traveller</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Plugin Libras -->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
+    <header class="header" id="header">
+      <button class="btn-icon-header" id="button" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div>
+        <h1 class="title-header"><a href="./index.html">GULLIVER</a></h1>
+      </div>
+      <div>
+        <nav>
+          <ul class="nav-ul" id="navigation-header">
+            <button
+              class="btn-icon-header"
+              id="button"
+              onclick="toggleSidebar()"
+            >
+              <i class="fa-solid fa-x icon"></i>
+            </button>
+            <li class="nav-item">
+              <a class="nav-link" href="#">COMO CHEGAR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CULTURA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/hotel.html">ONDE SE HOSPEDAR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GASTRONOMIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ENTRETENIMENTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <article class="container-home-main">
+      <figure class="figure-main" tabindex="0">
+        <img
+          class="img-home-main"
+          src="./assets/image/home-main.jpg"
+          alt="Foto de dia da cidade do Rio de Janeiro, mostra o pão de açucar e
+          várias embarcações."
+        />
+        <figcaption class="figcaption">
+          Foto de dia da cidade do Rio de Janeiro, mostra o pão de açucar e
+          várias embarcações.
+        </figcaption>
+        <p class="paragraph-main">
+          Rio de Janeiro: Quando ir, o que fazer e onde ficar
+        </p>
+      </figure>
+
+      <div>
+        <figure tabindex="0">
+          <img
+            class="img-home-card"
+            src="./assets/image/monte-verde.jpg"
+            alt="Foto de dia, ao entardecer de uma rua e um estabelecimento com arquitetura holandesa."
+          />
+          <figcaption class="figcaption">
+            Foto de dia, ao entardecer de uma rua e um estabelecimento com
+            arquitetura holandesa.
+          </figcaption>
+          <p class="paragraph-card">
+            Monte Verde: Roteiro para 3 dias ou mais de viagem
+          </p>
+        </figure>
+        <figure tabindex="0">
+          <img
+            class="img-home-card"
+            src="./assets/image/gramado.jpg"
+            alt="Foto de dia da entrada da cidade de Gramado, um portal de pedra para a passagem de carros."
+          />
+          <figcaption class="figcaption">
+            Foto de dia da entrada da cidade de Gramado, um portal de pedra para
+            a passagem de carros.
+          </figcaption>
+          <p class="paragraph-card">
+            Gramado e Canela: Dicas, atrações, roteiro, onde ficar e o que fazer
+          </p>
+        </figure>
+      </div>
+    </article>
+
+    <h2 class="title-content">Sua viagem começa aqui!</h2>
+    <article class="container-home-main">
+      <figure tabindex="0">
+        <img
+          class="img-home-card"
+          src="./assets/image/bonito.jpg"
+          alt="Foto de dia, de um mergulhador, é possível ver o fundo do rio e os peixes."
+        />
+        <figcaption class="figcaption">
+          Foto de dia, de um mergulhador, é possível ver o fundo do rio e os
+          peixes.
+        </figcaption>
+        <p class="paragraph-card">
+          Quando ir para Bonito, MS: Melhor época pra viajar
+        </p>
+      </figure tabindex="0">
+
+      <figure class="figure" tabindex="0">
+        <img
+          class="img-home-card"
+          src="./assets/image/ipiranga.jpg"
+          alt="Foto de dia do Museo do Ipiranga, possui árvores, vegetação e flores pelo caminho."
+        />
+        <figcaption class="figcaption">
+          Foto de dia do Museo do Ipiranga, possui árvores, vegetação e flores
+          pelo caminho.
+        </figcaption>
+        <p class="paragraph-card">
+          Como ir ao Museo do Ipiranga em SP: Metrô, trem e ônibus
+        </p>
+      </figure>
+
+      <figure tabindex="0">
+        <img
+          class="img-home-card"
+          src="./assets/image/chile.jpg"
+          alt="Foto de dia da cidade de Santiago do Chile, possui vários arranha-céus e ao fundo montanhas com gelo."
+        />
+        <figcaption class="figcaption">
+          Foto de dia da cidade de Santiago do Chile, possui vários arranha-céus
+          e ao fundo montanhas com gelo.
+        </figcaption>
+        <p class="paragraph-card">
+          Araucaína, no Chile: O que fazer, roteiro e dicas
+        </p>
+      </figure>
+    </article>
+
+    <article>
+      <section class="social-media">
+        <div class="wrapper-social-media" tabindex="0">
+          <i class="fa-brands fa-square-facebook icon"></i>
+          <figcaption class="social-media-text">Link para Facebook</figcaption>
+        </div>
+        <div class="wrapper-social-media" tabindex="0">
+          <i class="fa-brands fa-square-twitter icon"></i>
+          <figcaption class="social-media-text">Link para Twitter</figcaption>
+        </div>
+        <div class="wrapper-social-media" tabindex="0">
+          <i class="fa-brands fa-square-instagram icon"></i>
+          <figcaption class="social-media-text">Link para Instagram</figcaption>
+        </div>
+        <div class="wrapper-social-media" tabindex="0">
+          <i class="fa-brands fa-square-youtube icon"></i>
+          <figcaption class="social-media-text">Link para YouTube</figcaption>
+        </div>
+      </section>
+    </article>
+
+    <footer class="footer">
+      <p class="footer-paragraph">
+        Desenvolvido por Gisele Araujo Silva e Vitória Katerine Ferreira
+      </p>
+      <p class="footer-paragraph">
+        <a
+          class="footer-link"
+          href="https://github.com/giselearaujos/FIAP-Enterprise-Connection-01"
+          target="_blank"
+        >
+          Repositório do Projeto
+          <i class="fa-solid fa-square-up-right footer-icon"></i>
+        </a>
+      </p>
+    </footer>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
